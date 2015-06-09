@@ -1,0 +1,21 @@
+{
+	"name": "package/name",
+	"description": "Skeleton Package Description.",
+	"keywords": ["some", "keywords"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Jon Doe",
+			"email": "jondoe@dummy.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Package\\Namespace": "src"
+		}
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~4.0",
+		"phpspec/phpspec": "~2.1"
+	}
+}
